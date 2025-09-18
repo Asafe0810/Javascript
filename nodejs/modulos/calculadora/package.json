@@ -1,5 +1,5 @@
 {
-  "name": "fs",
+  "name": "calculadora",
   "version": "1.0.0",
   "description": "Exemplo do uso nativo do fs do NodeJS",
   "main": "app.js",
