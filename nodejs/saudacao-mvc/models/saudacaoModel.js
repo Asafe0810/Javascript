@@ -1,7 +1,5 @@
 module.exports = {
-  gerarMensagemPersonalizada: (nome, idade, torcida) => {
-
-
+  gerarMensagemPersonalizada: (nome, idade) => {
     let faixaEtaria;
 
     if (idade < 12) {
@@ -14,6 +12,6 @@ module.exports = {
       faixaEtaria = "idoso";
     }
 
-    return `Olá, ${nome}! Você tem ${idade} anos, você é torcedor do ${torcida} e és um(a) ${faixaEtaria}.`;
+    return `Olá, ${nome}! Você é um(a) ${faixaEtaria}.`;
   }
 };
