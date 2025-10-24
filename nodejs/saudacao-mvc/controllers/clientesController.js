@@ -10,7 +10,7 @@ module.exports = {
     
   listarClientes: (req, res) => {
     const { login, senha } = req.body;
-    const mensagem = clientesModelModel.verificarLogin(login, senha);
+    const mensagem = clientesModel.verificarLogin(login, senha);
     res.send(`<h1>${mensagem}</h1>`);
   }
 };

@@ -1,5 +1,5 @@
 module.exports = {
-  gerarMensagemPersonalizada: (login, senha) => {
+  gerarMensagemLogin: (login, senha) => {
     let acesso;
 
     if (login === "Asafe" && senha === "12345") {

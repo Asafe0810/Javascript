@@ -22,5 +22,6 @@ module.exports = {
   camisetas: (req, res) => {
     res.sendFile('camisetas.html', { root: './views' });
   }
+  
 
 };
