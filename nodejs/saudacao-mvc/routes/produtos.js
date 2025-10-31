@@ -4,6 +4,8 @@ const produtosController = require("../controllers/produtosController");
 
 router.get("/", produtosController.index);
 
+router.get("/camisetas", produtosController.camisetas);
+
 router.get("/cadastrar", produtosController.formulario);
 
 router.post("/cadastrar", produtosController.cadastrar);
